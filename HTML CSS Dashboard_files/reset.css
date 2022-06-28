@@ -1,0 +1,49 @@
+/* Variables */
+
+:root {
+  --color-primary: #44f6fd;
+  --color-accent: #fffffa;
+  --color-default: #363636;
+
+  --color-background: #242424;
+  --color-card: #1b1b1b;
+
+  --color-text: #f9f9f9;
+  --color-label: #aaaaaa;
+  --color-disabled: #888888;
+
+  --length-sm1: 0.3rem;
+  --length-sm2: 0.6rem;
+  --length-sm3: 0.8rem;
+
+  --length-md1: 1rem;
+  --length-md2: 1.4rem;
+  --length-md3: 1.8rem;
+
+  --length-lg1: 2.2rem;
+  --length-lg2: 3.3rem;
+  --length-lg3: 4.4rem;
+
+  --length-xl1: 6.5rem;
+  --length-xl2: 8.5rem;
+  --length-xl3: 10.5rem;
+}
+
+/* Reset */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
